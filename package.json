@@ -1,0 +1,36 @@
+{
+  "name": "threejs-grid3D",
+  "version": "1.0.0",
+  "description": "基于Three.js的三维笛卡尔坐标系",
+  "main": "/src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhu5317460/threejs-grid3D.git"
+  },
+  "keywords": [
+    "javascript",
+    "three",
+    "Three.js"
+  ],
+  "author": "zhu5317460",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhu5317460/threejs-grid3D/issues"
+  },
+  "homepage": "https://github.com/zhu5317460/threejs-grid3D#readme",
+  "dependencies": {
+    "three": "^0.133.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.4.0",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
