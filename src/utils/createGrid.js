@@ -59,7 +59,7 @@ function createGroundGrid (width, height, widthSegment, heightSegment, materialP
     return {
       x: v.x,
       y: v.y,
-      t: i * heightSegment
+      t: parseInt(i * heightSegment)
     }
   });
   
@@ -95,7 +95,7 @@ function createGroundGrid (width, height, widthSegment, heightSegment, materialP
     return {
       x: v.x,
       y: v.y,
-      t: i * widthSegment
+      t: parseInt(i * widthSegment)
     }
   });
   // 默认属性
